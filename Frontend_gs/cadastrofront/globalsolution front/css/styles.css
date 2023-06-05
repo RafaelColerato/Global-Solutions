@@ -1,0 +1,73 @@
+
+
+.btn-Verde:hover {
+  background-color: var(--branco);
+  border: 2px solid var(--verde);
+  color: var(--Verde);
+}
+
+.corBranco,
+.corBranco::placeholder,
+.corBranco:focus {
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.bg-tela-primario {
+  background-color: var(--verde);
+}
+
+.bg-tela-secundario {
+  background-color: var(--branco);
+}
+
+
+.bg-bd-campo-secundario {
+  
+  border: 2px solid var(--verde);
+}
+
+.btn-branco {
+  border: 2px solid var(--verde);
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.btn-Verde {
+  border: 2px solid var(--verde);
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.btn-branco:hover {
+  color: var(--verde);
+  border: 2px solid var(--verde);
+  font-weight: bold;
+}
+
+
+option,
+.corVerde,
+.corVerde::placeholder,
+.corVerde:focus {
+  color: var(--verde);
+  font-weight: bold;
+}
+
+.fonte-0 {
+  font-size: 14px;
+}
+
+.fonte-1 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-menu {
+  flex: 1;
+}
+
+:root {
+  --branco: #ffffff;
+  --verde: #acd167;
+}
